@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0EC0A21C8DF48400E8325C /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EC0A11C8DF48400E8325C /* CoreDataStackManager.swift */; };
 		BD185CBA1C89F79B00C38917 /* SearchPresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */; };
 		BD39BBCA1C88E04F008CEEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBC91C88E04F008CEEF4 /* AppDelegate.swift */; };
 		BD39BBCC1C88E04F008CEEF4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBCB1C88E04F008CEEF4 /* LoginViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0EC0A11C8DF48400E8325C /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
 		BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPresetsViewController.swift; sourceTree = "<group>"; };
 		BD39BBC61C88E04F008CEEF4 /* SandboxStreamPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandboxStreamPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD39BBC91C88E04F008CEEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */,
 				BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */,
 				BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */,
+				BD0EC0A11C8DF48400E8325C /* CoreDataStackManager.swift */,
 			);
 			path = SandboxStreamPortal;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				BD39BBCA1C88E04F008CEEF4 /* AppDelegate.swift in Sources */,
 				BD39BBFA1C89DF29008CEEF4 /* StreamAccountProvider.swift in Sources */,
 				BD39BBF81C89DDC0008CEEF4 /* StreamAccountSigninCell.swift in Sources */,
+				BD0EC0A21C8DF48400E8325C /* CoreDataStackManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
