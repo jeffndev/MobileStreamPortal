@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD185CBA1C89F79B00C38917 /* SearchPresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */; };
+		BD39BBCA1C88E04F008CEEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBC91C88E04F008CEEF4 /* AppDelegate.swift */; };
+		BD39BBCC1C88E04F008CEEF4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBCB1C88E04F008CEEF4 /* LoginViewController.swift */; };
+		BD39BBCF1C88E04F008CEEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD39BBCD1C88E04F008CEEF4 /* Main.storyboard */; };
+		BD39BBD11C88E04F008CEEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD39BBD01C88E04F008CEEF4 /* Assets.xcassets */; };
+		BD39BBD41C88E04F008CEEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD39BBD21C88E04F008CEEF4 /* LaunchScreen.storyboard */; };
+		BD39BBDF1C88E04F008CEEF4 /* SandboxStreamPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBDE1C88E04F008CEEF4 /* SandboxStreamPortalTests.swift */; };
+		BD39BBEA1C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBE91C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift */; };
+		BD39BBF81C89DDC0008CEEF4 /* StreamAccountSigninCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */; };
+		BD39BBFA1C89DF29008CEEF4 /* StreamAccountProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD39BBDB1C88E04F008CEEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD39BBBE1C88E04F008CEEF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD39BBC51C88E04F008CEEF4;
+			remoteInfo = SandboxStreamPortal;
+		};
+		BD39BBE61C88E04F008CEEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD39BBBE1C88E04F008CEEF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD39BBC51C88E04F008CEEF4;
+			remoteInfo = SandboxStreamPortal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPresetsViewController.swift; sourceTree = "<group>"; };
+		BD39BBC61C88E04F008CEEF4 /* SandboxStreamPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandboxStreamPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD39BBC91C88E04F008CEEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD39BBCB1C88E04F008CEEF4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD39BBCE1C88E04F008CEEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD39BBD01C88E04F008CEEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD39BBD31C88E04F008CEEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD39BBD51C88E04F008CEEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD39BBDA1C88E04F008CEEF4 /* SandboxStreamPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxStreamPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD39BBDE1C88E04F008CEEF4 /* SandboxStreamPortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxStreamPortalTests.swift; sourceTree = "<group>"; };
+		BD39BBE01C88E04F008CEEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD39BBE51C88E04F008CEEF4 /* SandboxStreamPortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxStreamPortalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD39BBE91C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxStreamPortalUITests.swift; sourceTree = "<group>"; };
+		BD39BBEB1C88E04F008CEEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAccountSigninCell.swift; sourceTree = "<group>"; };
+		BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAccountProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD39BBC31C88E04F008CEEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBD71C88E04F008CEEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBE21C88E04F008CEEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD39BBBD1C88E04F008CEEF4 = {
+			isa = PBXGroup;
+			children = (
+				BD39BBC81C88E04F008CEEF4 /* SandboxStreamPortal */,
+				BD39BBDD1C88E04F008CEEF4 /* SandboxStreamPortalTests */,
+				BD39BBE81C88E04F008CEEF4 /* SandboxStreamPortalUITests */,
+				BD39BBC71C88E04F008CEEF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD39BBC71C88E04F008CEEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD39BBC61C88E04F008CEEF4 /* SandboxStreamPortal.app */,
+				BD39BBDA1C88E04F008CEEF4 /* SandboxStreamPortalTests.xctest */,
+				BD39BBE51C88E04F008CEEF4 /* SandboxStreamPortalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD39BBC81C88E04F008CEEF4 /* SandboxStreamPortal */ = {
+			isa = PBXGroup;
+			children = (
+				BD39BBC91C88E04F008CEEF4 /* AppDelegate.swift */,
+				BD39BBCB1C88E04F008CEEF4 /* LoginViewController.swift */,
+				BD39BBCD1C88E04F008CEEF4 /* Main.storyboard */,
+				BD39BBD01C88E04F008CEEF4 /* Assets.xcassets */,
+				BD39BBD21C88E04F008CEEF4 /* LaunchScreen.storyboard */,
+				BD39BBD51C88E04F008CEEF4 /* Info.plist */,
+				BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */,
+				BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */,
+				BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */,
+			);
+			path = SandboxStreamPortal;
+			sourceTree = "<group>";
+		};
+		BD39BBDD1C88E04F008CEEF4 /* SandboxStreamPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD39BBDE1C88E04F008CEEF4 /* SandboxStreamPortalTests.swift */,
+				BD39BBE01C88E04F008CEEF4 /* Info.plist */,
+			);
+			path = SandboxStreamPortalTests;
+			sourceTree = "<group>";
+		};
+		BD39BBE81C88E04F008CEEF4 /* SandboxStreamPortalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD39BBE91C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift */,
+				BD39BBEB1C88E04F008CEEF4 /* Info.plist */,
+			);
+			path = SandboxStreamPortalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD39BBC51C88E04F008CEEF4 /* SandboxStreamPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD39BBEE1C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortal" */;
+			buildPhases = (
+				BD39BBC21C88E04F008CEEF4 /* Sources */,
+				BD39BBC31C88E04F008CEEF4 /* Frameworks */,
+				BD39BBC41C88E04F008CEEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandboxStreamPortal;
+			productName = SandboxStreamPortal;
+			productReference = BD39BBC61C88E04F008CEEF4 /* SandboxStreamPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD39BBD91C88E04F008CEEF4 /* SandboxStreamPortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD39BBF11C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortalTests" */;
+			buildPhases = (
+				BD39BBD61C88E04F008CEEF4 /* Sources */,
+				BD39BBD71C88E04F008CEEF4 /* Frameworks */,
+				BD39BBD81C88E04F008CEEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD39BBDC1C88E04F008CEEF4 /* PBXTargetDependency */,
+			);
+			name = SandboxStreamPortalTests;
+			productName = SandboxStreamPortalTests;
+			productReference = BD39BBDA1C88E04F008CEEF4 /* SandboxStreamPortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD39BBE41C88E04F008CEEF4 /* SandboxStreamPortalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD39BBF41C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortalUITests" */;
+			buildPhases = (
+				BD39BBE11C88E04F008CEEF4 /* Sources */,
+				BD39BBE21C88E04F008CEEF4 /* Frameworks */,
+				BD39BBE31C88E04F008CEEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD39BBE71C88E04F008CEEF4 /* PBXTargetDependency */,
+			);
+			name = SandboxStreamPortalUITests;
+			productName = SandboxStreamPortalUITests;
+			productReference = BD39BBE51C88E04F008CEEF4 /* SandboxStreamPortalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD39BBBE1C88E04F008CEEF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeff Newell";
+				TargetAttributes = {
+					BD39BBC51C88E04F008CEEF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BD39BBD91C88E04F008CEEF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD39BBC51C88E04F008CEEF4;
+					};
+					BD39BBE41C88E04F008CEEF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD39BBC51C88E04F008CEEF4;
+					};
+				};
+			};
+			buildConfigurationList = BD39BBC11C88E04F008CEEF4 /* Build configuration list for PBXProject "SandboxStreamPortal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD39BBBD1C88E04F008CEEF4;
+			productRefGroup = BD39BBC71C88E04F008CEEF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD39BBC51C88E04F008CEEF4 /* SandboxStreamPortal */,
+				BD39BBD91C88E04F008CEEF4 /* SandboxStreamPortalTests */,
+				BD39BBE41C88E04F008CEEF4 /* SandboxStreamPortalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD39BBC41C88E04F008CEEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39BBD41C88E04F008CEEF4 /* LaunchScreen.storyboard in Resources */,
+				BD39BBD11C88E04F008CEEF4 /* Assets.xcassets in Resources */,
+				BD39BBCF1C88E04F008CEEF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBD81C88E04F008CEEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBE31C88E04F008CEEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD39BBC21C88E04F008CEEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39BBCC1C88E04F008CEEF4 /* LoginViewController.swift in Sources */,
+				BD185CBA1C89F79B00C38917 /* SearchPresetsViewController.swift in Sources */,
+				BD39BBCA1C88E04F008CEEF4 /* AppDelegate.swift in Sources */,
+				BD39BBFA1C89DF29008CEEF4 /* StreamAccountProvider.swift in Sources */,
+				BD39BBF81C89DDC0008CEEF4 /* StreamAccountSigninCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBD61C88E04F008CEEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39BBDF1C88E04F008CEEF4 /* SandboxStreamPortalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD39BBE11C88E04F008CEEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39BBEA1C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD39BBDC1C88E04F008CEEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD39BBC51C88E04F008CEEF4 /* SandboxStreamPortal */;
+			targetProxy = BD39BBDB1C88E04F008CEEF4 /* PBXContainerItemProxy */;
+		};
+		BD39BBE71C88E04F008CEEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD39BBC51C88E04F008CEEF4 /* SandboxStreamPortal */;
+			targetProxy = BD39BBE61C88E04F008CEEF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD39BBCD1C88E04F008CEEF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD39BBCE1C88E04F008CEEF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD39BBD21C88E04F008CEEF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD39BBD31C88E04F008CEEF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD39BBEC1C88E04F008CEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD39BBED1C88E04F008CEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD39BBEF1C88E04F008CEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SandboxStreamPortal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD39BBF01C88E04F008CEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SandboxStreamPortal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD39BBF21C88E04F008CEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SandboxStreamPortalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandboxStreamPortal.app/SandboxStreamPortal";
+			};
+			name = Debug;
+		};
+		BD39BBF31C88E04F008CEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SandboxStreamPortalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandboxStreamPortal.app/SandboxStreamPortal";
+			};
+			name = Release;
+		};
+		BD39BBF51C88E04F008CEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SandboxStreamPortalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SandboxStreamPortal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD39BBF61C88E04F008CEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SandboxStreamPortalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefenew.SandboxStreamPortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SandboxStreamPortal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD39BBC11C88E04F008CEEF4 /* Build configuration list for PBXProject "SandboxStreamPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39BBEC1C88E04F008CEEF4 /* Debug */,
+				BD39BBED1C88E04F008CEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD39BBEE1C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39BBEF1C88E04F008CEEF4 /* Debug */,
+				BD39BBF01C88E04F008CEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD39BBF11C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39BBF21C88E04F008CEEF4 /* Debug */,
+				BD39BBF31C88E04F008CEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD39BBF41C88E04F008CEEF4 /* Build configuration list for PBXNativeTarget "SandboxStreamPortalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39BBF51C88E04F008CEEF4 /* Debug */,
+				BD39BBF61C88E04F008CEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD39BBBE1C88E04F008CEEF4 /* Project object */;
+}
