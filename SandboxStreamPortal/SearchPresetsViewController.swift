@@ -9,15 +9,18 @@
 import UIKit
 import iAd
 
+protocol SelectPresetDelegate {
+    func togglePreset(forAccountProvider provider: StreamAccountProvider, isSelected: Bool)
+}
+
 class SearchPresetsViewController: UIViewController {
 
+    let SELECT_PRESET_TOGGLE_CELL_ID = "PresetCell"
     let CELL_ID = "SearchResultCell" 
     
     @IBOutlet weak var resultsTableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var selectPresets: UISegmentedControl! //TODO: This is going to have to be a Collection View with custom cells with image buttons
-                                                          // just followed the mockup for now, but segment controls are SINGLE select, no go
-    
+    @IBOutlet weak var selectPresets: UICollectionView!
     
 }
 extension SearchPresetsViewController: UISearchBarDelegate {

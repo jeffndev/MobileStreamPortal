@@ -18,6 +18,7 @@
 		BD39BBEA1C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBE91C88E04F008CEEF4 /* SandboxStreamPortalUITests.swift */; };
 		BD39BBF81C89DDC0008CEEF4 /* StreamAccountSigninCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */; };
 		BD39BBFA1C89DF29008CEEF4 /* StreamAccountProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */; };
+		BD7C69681C90F22A005825A2 /* PresetSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C69671C90F22A005825A2 /* PresetSelectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BD39BBEB1C88E04F008CEEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD39BBF71C89DDC0008CEEF4 /* StreamAccountSigninCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAccountSigninCell.swift; sourceTree = "<group>"; };
 		BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamAccountProvider.swift; sourceTree = "<group>"; };
+		BD7C69671C90F22A005825A2 /* PresetSelectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetSelectCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				BD39BBF91C89DF29008CEEF4 /* StreamAccountProvider.swift */,
 				BD185CB91C89F79B00C38917 /* SearchPresetsViewController.swift */,
 				BD0EC0A11C8DF48400E8325C /* CoreDataStackManager.swift */,
+				BD7C69671C90F22A005825A2 /* PresetSelectCollectionViewCell.swift */,
 			);
 			path = SandboxStreamPortal;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				BD185CBA1C89F79B00C38917 /* SearchPresetsViewController.swift in Sources */,
 				BD39BBCA1C88E04F008CEEF4 /* AppDelegate.swift in Sources */,
 				BD39BBFA1C89DF29008CEEF4 /* StreamAccountProvider.swift in Sources */,
+				BD7C69681C90F22A005825A2 /* PresetSelectCollectionViewCell.swift in Sources */,
 				BD39BBF81C89DDC0008CEEF4 /* StreamAccountSigninCell.swift in Sources */,
 				BD0EC0A21C8DF48400E8325C /* CoreDataStackManager.swift in Sources */,
 			);
