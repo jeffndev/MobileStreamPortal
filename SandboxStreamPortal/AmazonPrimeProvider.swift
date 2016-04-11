@@ -20,6 +20,7 @@ class AmazonPrimeProvider {
 //    &AssociateTag=[Your_AssociateTag]
 //    &Timestamp=[YYYY-MM-DDThh:mm:ssZ]
 //    &Signature=[Request_Signature]
+    //http://docs.aws.amazon.com/AWSECommerceService/latest/DG/ItemLookup.html
     
     
     
