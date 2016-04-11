@@ -20,7 +20,8 @@ class PresetSelectCollectionViewCell: UICollectionViewCell {
         if let delegate = delegate, providerAccount = providerAccount {
             delegate.togglePreset(forAccountProvider: providerAccount, isSelected: isSelected)
             //TODO: toggle the UI with creatives for Selected/Not Selected for each supported account..
-            selectToggleButton.setImage(UIImage(named: searchPresetsToggleImageName(providerAccount, isSelected: isSelected)), forState: .Normal)
+            let image = UIImage(named: searchPresetsToggleImageName(providerAccount, isSelected: isSelected))
+            selectToggleButton.setImage(image, forState: .Normal)
         }
     }
     
